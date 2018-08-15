@@ -4,9 +4,11 @@ body, html{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
 }
 
-img {
-    width: 100%;
-    transform: rotate(270deg)
+.card {
+    width: 75%;
+    margin-bottom: 40%;
+    display: block
 }
